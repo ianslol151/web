@@ -1,0 +1,112 @@
+body {
+    background-color: #3c085af5;
+    color: #ffffff;
+}
+p {
+    font-size: 20px;
+}
+.izquierda {
+    padding-right: 55%;
+}
+ .derecha {
+    padding-left:55%
+}
+h1 {
+    border:2px solid #ffffff;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.titulo {
+    text-align: center;
+}
+#costura1 {
+    position: absolute;
+    right: 28%;
+}
+#costura2 {
+    position: absolute;
+    right: 1%;
+    height: 208px;
+}
+#trabajo {
+    position: absolute;
+    left: 24%;
+}
+#trabajo1 {
+    position: absolute;
+    left: 1%;
+}
+#lucha {
+    position: absolute;
+    height: 190px;
+    right: 1%;
+}
+#lucha1 {
+    right: 25%;
+    position: absolute;
+}
+#voto {
+    position: absolute;
+    height: 200px;
+    left: 1%;
+    width: 300px;
+}
+#voto1 {
+    left: 25%;
+    position: absolute;
+    
+}
+#igualdad {
+    position: absolute;
+    right: 1%;
+}
+#igualdad1 {
+    right: 21%;
+    position: absolute;
+    height: 190px;
+}
+#linea {
+position: absolute;
+    right: 42.5%;
+    height: 1050px;
+    width: 230px;
+    top: 10%;
+}
+#triangulo1 {
+    top: 25%;
+    left: 47.6%;
+    height: 50px;
+    position: absolute;
+    filter: sepia(5000%) hue-rotate(218371deg)
+}
+#triangulo2 {
+    top: 77%;
+    left: 47.6%;
+    height: 50px;
+    position: absolute;
+    filter: sepia(5000%) hue-rotate(150deg)
+}
+#triangulo3 {
+    top: 127%;
+    left: 47.6%;
+    height: 50px;
+    position: absolute;
+    filter: sepia(5000%) hue-rotate(15deg)
+}
+#trianguloi1 {
+    position: absolute;
+    left: 47.6%;
+    height: 50px;
+    top: 52%;
+    transform: rotate(180deg);
+    filter: sepia(5000%) hue-rotate(100deg)
+}
+#trianguloi2 {
+    position: absolute;
+    left: 47.6%;
+    height: 50px;
+    top: 102%;
+    transform: rotate(180deg);
+    filter: sepia(5000%) hue-rotate(10000deg)
+}
