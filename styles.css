@@ -144,7 +144,7 @@ position:static, absolute;
     transform: rotate(180deg);
     filter: sepia(5000%) hue-rotate(10000deg);
 }
-@media (min-width: 1440px) and (max-width:1500px) {
+@media (min-width: 1440px) {
     #voto {
         display: block;
         float: left;
@@ -225,7 +225,8 @@ position:static, absolute;
         padding-right: 1%;
         height: 200px;
        width: 200px;
-       padding-top: 30%;
+       padding-top: 1%;
+       padding-left: 20%;
     }
 
     #voto1 {
@@ -234,7 +235,9 @@ position:static, absolute;
         float: left;
         height: 200px;
        width: 200px;
-       padding-top: 35%;
+       padding-top: 5%;
+       padding-left: 20%;
+       padding-bottom: 10px;
     }
     #igualdad {
         display: block;
@@ -242,31 +245,35 @@ position:static, absolute;
         float: right;
         height: 190px;
        width: 200px;
-       padding-top: 30%;
+       padding-top: 1%;
+       padding-right: 20%;
     }
     #igualdad1 {
         display: block;
         float: right;
-        padding-right: 1%;
+        padding-right: 20%;
         height: 190px;
        width: 200px;
-       padding-top: 30%;
+       padding-top: 5%;
     }
     #costura1 {
         display: block;
         height: auto;
         float: right;
-        height: 209px;
+        height: 180px;
        width: 200px;
-       padding-top: 30%;
+       padding-top: 10%;
+       padding-right: 20%;
     }
     #costura2 {
         display: block;
         float: right;
         padding-right: 1%;
-        height: 209px;
+        height: 180px;
        width: 200px;
-       padding-top: 30%;
+       padding-top: 10%;
+       padding-right: 20%;
+       padding-bottom: 10px;
     }
     #trabajo {
         display: block;
@@ -274,7 +281,8 @@ position:static, absolute;
         padding-right: 1%;
         height: 188px;
        width: 200px;
-       padding-top: 35%;
+       padding-top: 1%;
+       padding-left: 20%;
     }
     #trabajo1 {
         display: block;
@@ -282,7 +290,9 @@ position:static, absolute;
         float: left;
         height: 188px;
        width: 200px;
-       padding-top: 40%;
+       padding-top: 10%;
+       padding-left: 20%;
+       padding-bottom: 10px;
     }
     #lucha {
         display: block;
@@ -290,7 +300,8 @@ position:static, absolute;
         float: right;
         height: 170px;
        width: 200px;
-       padding-top: 30%;
+       padding-top: 2%;
+       padding-right: 20%;
     }
     #lucha1 {
         display: block;
@@ -298,7 +309,9 @@ position:static, absolute;
         padding-right: 1%;
         height: 170px;
        width: 200px;
-       padding-top: 30%;
+       padding-top: 10%;
+       padding-bottom: 10px;
+       padding-right: 20%;
     }
 }
 
