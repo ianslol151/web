@@ -6,10 +6,10 @@ p {
     font-size: 20px;
 }
 .izquierda {
-    padding-right: 55%;
+    padding-right: 53%;
 }
  .derecha {
-    padding-left:55%
+    padding-left:53%
 }
 h1 {
     border:2px solid #ffffff;
@@ -20,59 +20,85 @@ h1 {
 h2 {
     text-decoration: underline;
 }
+hr {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    border: none;
+}
 .titulo {
     text-align: center;
 }
 #costura1 {
-    position: absolute;
-    right: 27%;
+    display: block;
+    height: auto;
+    float: right;
+    height: 209px;
+    width: 290px;
 }
 #costura2 {
-    position: absolute;
-    right: 1%;
+    display: block;
+    float: right;
+    padding-right: 1%;
     height: 209px;
-    width: 350px;
+    width: 290px;
 }
 #trabajo {
-    position: absolute;
-    left: 24%;
+    display: block;
+    float: left;
+    padding-right: 1%;
+    height: 188px;
+    width: 290px;
 }
 #trabajo1 {
-    position: absolute;
-    left: 1%;
+    display: block;
+    height: auto;
+    float: left;
     height: 188px;
-    width: 300px;
+    width: 290px;
 }
 #lucha {
-    position: absolute;
-    height: 190px;
-    right: 1%;
-    height: 180px;
-    width: 300px;
+    display: block;
+    height: auto;
+    float: right;
+    height: 170px;
+    width: 290px;
 }
 #lucha1 {
-    right: 24%;
-    position: absolute;
+    display: block;
+    float: right;
+    padding-right: 1%;
+    height: 170px;
+    width: 290px;
 }
 #voto {
-    position: absolute;
+    display: block;
+    float: left;
+    padding-right: 1%;
     height: 200px;
-    left: 1%;
-    width: 300px;
+   width: 290px; 
 }
 #voto1 {
-    left: 25%;
-    position: absolute;
-    
+    display: block;
+    height: auto;
+    float: left;
+    height: 200px;
+    width: 290px;
 }
 #igualdad {
-    position: absolute;
-    right: 1%;
+    display: block;
+    height: auto;
+    float: right;
+    height: 190px;
+    width: 290px;
 }
 #igualdad1 {
-    right: 20%;
-    position: absolute;
+    display: block;
+    float: right;
+    padding-right: 1%;
     height: 190px;
+    width: 290px;
 }
 #linea {
 position:static, absolute;
@@ -82,8 +108,8 @@ position:static, absolute;
     top: 10%;
 }
 #triangulo1 {
-    top: 25%;
-    left: 47.6%;
+    padding-bottom: 100%;
+    padding-left: 47%;
     height: 50px;
     position: absolute;
     filter: sepia(5000%) hue-rotate(21832deg)
@@ -100,7 +126,7 @@ position:static, absolute;
     left: 47.6%;
     height: 50px;
     position: absolute;
-    filter: sepia(5000%) hue-rotate(15deg)
+    filter: sepia(5000%) hue-rotate(15deg);
 }
 #trianguloi1 {
     position: absolute;
@@ -116,5 +142,247 @@ position:static, absolute;
     height: 50px;
     top: 102%;
     transform: rotate(180deg);
-    filter: sepia(5000%) hue-rotate(10000deg)
+    filter: sepia(5000%) hue-rotate(10000deg);
 }
+@media (min-width: 1440px) and (max-width:1500px) {
+    #voto {
+        display: block;
+        float: left;
+        padding-right: 1%;
+        height: 200px;
+       width: 320px; 
+    }
+
+    #voto1 {
+        display: block;
+        height: auto;
+        float: left;
+        height: 200px;
+        width: 320px;
+    }
+    #igualdad {
+        display: block;
+        height: auto;
+        float: right;
+        height: 190px;
+        width: 320px;
+    }
+    #igualdad1 {
+        display: block;
+        float: right;
+        padding-right: 1%;
+        height: 190px;
+        width: 320px;
+    }
+    #costura1 {
+        display: block;
+        height: auto;
+        float: right;
+        height: 209px;
+        width: 320px;
+    }
+    #costura2 {
+        display: block;
+        float: right;
+        padding-right: 1%;
+        height: 209px;
+        width: 320px;
+    }
+    #trabajo {
+        display: block;
+        float: left;
+        padding-right: 1%;
+        height: 188px;
+        width: 320px;
+    }
+    #trabajo1 {
+        display: block;
+        height: auto;
+        float: left;
+        height: 188px;
+        width: 320px;
+    }
+    #lucha {
+        display: block;
+        height: auto;
+        float: right;
+        height: 170px;
+        width: 320px;
+    }
+    #lucha1 {
+        display: block;
+        float: right;
+        padding-right: 1%;
+        height: 170px;
+        width: 320px;
+    }
+}  
+
+@media (orientation: portrait) {
+    #voto {
+        display: block;
+        float: left;
+        padding-right: 1%;
+        height: 200px;
+       width: 200px;
+       padding-top: 30%;
+    }
+
+    #voto1 {
+        display: block;
+        height: auto;
+        float: left;
+        height: 200px;
+       width: 200px;
+       padding-top: 35%;
+    }
+    #igualdad {
+        display: block;
+        height: auto;
+        float: right;
+        height: 190px;
+       width: 200px;
+       padding-top: 30%;
+    }
+    #igualdad1 {
+        display: block;
+        float: right;
+        padding-right: 1%;
+        height: 190px;
+       width: 200px;
+       padding-top: 30%;
+    }
+    #costura1 {
+        display: block;
+        height: auto;
+        float: right;
+        height: 209px;
+       width: 200px;
+       padding-top: 30%;
+    }
+    #costura2 {
+        display: block;
+        float: right;
+        padding-right: 1%;
+        height: 209px;
+       width: 200px;
+       padding-top: 30%;
+    }
+    #trabajo {
+        display: block;
+        float: left;
+        padding-right: 1%;
+        height: 188px;
+       width: 200px;
+       padding-top: 35%;
+    }
+    #trabajo1 {
+        display: block;
+        height: auto;
+        float: left;
+        height: 188px;
+       width: 200px;
+       padding-top: 40%;
+    }
+    #lucha {
+        display: block;
+        height: auto;
+        float: right;
+        height: 170px;
+       width: 200px;
+       padding-top: 30%;
+    }
+    #lucha1 {
+        display: block;
+        float: right;
+        padding-right: 1%;
+        height: 170px;
+       width: 200px;
+       padding-top: 30%;
+    }
+}
+
+    @media (min-width: 1980px) {
+        #voto {
+            display: block;
+            float: left;
+            padding-right: 1%;
+            height: 200px;
+           width: 320px;
+           padding-right: 15%;
+           padding-left: 10%;
+
+        }
+    
+        #voto1 {
+            display: block;
+            height: auto;
+            float: left;
+            height: 200px;
+            width: 320px;
+        }
+        #igualdad {
+            display: block;
+            height: auto;
+            float: right;
+            height: 190px;
+            width: 320px;
+            padding-right: 10%;
+        }
+        #igualdad1 {
+            display: block;
+            float: right;
+            padding-right: 1%;
+            height: 190px;
+            width: 320px;
+            padding-right: 15%;
+        }
+        #costura1 {
+            display: block;
+            height: auto;
+            float: right;
+            height: 209px;
+            width: 400px;
+            padding-right: 1%;
+        }
+        #costura2 {
+            display: block;
+            float: right;
+            padding-right: 1%;
+            height: 209px;
+            width: 400px;
+            padding-right: 10%;
+        }
+        #trabajo {
+            display: block;
+            float: left;
+            padding-right: 1%;
+            height: 188px;
+            width: 320px;
+            padding-right: 15%;
+            padding-left: 10%;
+        }
+        #trabajo1 {
+            display: block;
+            height: auto;
+            float: left;
+            height: 188px;
+            width: 320px;
+        }
+        #lucha {
+            display: block;
+            height: auto;
+            float: right;
+            height: 170px;
+            width: 400px;
+            padding-right: 1%;
+        }
+        #lucha1 {
+            display: block;
+            float: right;
+            padding-right: 1%;
+            height: 170px;
+            width: 370px;
+            padding-right: 10%;
+        }
+    }  
